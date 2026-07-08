@@ -1,0 +1,14 @@
+/* Dyad agent — design tokens (safe to edit) */
+:root {
+  --color-primary: #000000;
+  --color-accent: #6366f1;
+  --radius-lg: 22px;
+  --shadow-card: 0 10px 30px rgb(0 0 0 / 0.08);
+  --space-section-y: 4rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --shadow-card: 0 10px 40px rgb(0 0 0 / 0.45);
+  }
+}
